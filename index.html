@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encore — Unlimited Rock Song Guessing</title>
+  <meta name="description" content="Guess the rock song from a short clip. Unlimited rounds.">
+  <meta name="theme-color" content="#121014">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23121014'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23332c38' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23332c38' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%23ff5a36'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <button class="icon-btn" id="btn-help" aria-label="How to play" title="How to play">?</button>
+    <h1 class="logo">Enc<span>o</span>re</h1>
+    <div class="top-right">
+      <button class="icon-btn" id="btn-settings" aria-label="Settings" title="Settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-stats" aria-label="Stats" title="Stats">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V12M12 20V5M19 20v-9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="streak-row">
+      <span>Streak <b id="streak">0</b></span>
+      <span class="dot">•</span>
+      <span>Round <b id="round-no">1</b></span>
+      <span class="dot">•</span>
+      <span id="pool-label">All eras</span>
+    </div>
+
+    <ol class="guesses" id="guesses" aria-label="Your guesses"></ol>
+
+    <section class="reveal hidden" id="reveal" aria-live="polite">
+      <img id="rv-art" alt="" width="120" height="120">
+      <div class="rv-text">
+        <p class="rv-result" id="rv-result"></p>
+        <h2 id="rv-title"></h2>
+        <p id="rv-artist"></p>
+        <p class="rv-meta" id="rv-meta"></p>
+        <a id="rv-link" class="am-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3v11.5a3 3 0 1 1-2-2.83V6.2L9 7.3v9.2a3 3 0 1 1-2-2.83V5.7z" fill="currentColor"/></svg>
+          Listen on Apple Music
+        </a>
+      </div>
+    </section>
+
+    <div class="player">
+      <div class="bar" id="bar" aria-hidden="true">
+        <div class="bar-unlocked" id="bar-unlocked"></div>
+        <div class="bar-fill" id="bar-fill"></div>
+        <div class="bar-ticks" id="bar-ticks"></div>
+      </div>
+      <div class="bar-labels"><span id="time-now">0:00</span><span id="time-max">0:16</span></div>
+
+      <div class="controls">
+        <button class="play" id="btn-play" aria-label="Play clip" disabled>
+          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>
+        </button>
+      </div>
+      <p class="status" id="status">Loading…</p>
+    </div>
+
+    <form class="guess-form" id="guess-form" autocomplete="off">
+      <div class="combo">
+        <input id="guess-input" type="text" placeholder="Know it? Search for the title or artist" aria-label="Guess the song" aria-autocomplete="list" aria-controls="suggestions" disabled>
+        <ul class="suggestions hidden" id="suggestions" role="listbox"></ul>
+      </div>
+      <div class="actions">
+        <button type="button" class="btn ghost" id="btn-skip" disabled>Skip</button>
+        <button type="submit" class="btn primary" id="btn-submit" disabled>Submit</button>
+        <button type="button" class="btn primary hidden" id="btn-next">Next song →</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="foot">
+    Song previews provided courtesy of iTunes. Encore is a fan project and isn't affiliated with Apple or any artist.
+  </footer>
+
+  <!-- Help -->
+  <dialog id="dlg-help" class="dlg">
+    <h2>How to play</h2>
+    <ul class="help-list">
+      <li><b>Listen</b> to the start of a clip, then guess the song.</li>
+      <li><b>Skipped or wrong</b> guesses unlock more of the clip: 1s → 2s → 4s → 7s → 11s → 16s.</li>
+      <li><b>Yellow</b> means right artist, wrong song.</li>
+      <li><b>No daily limit.</b> Hit <kbd>Next song</kbd> and keep going.</li>
+      <li>Clips are Apple's 30-second previews, which often start mid-song rather than at the intro.</li>
+    </ul>
+    <form method="dialog"><button class="btn primary wide">Got it</button></form>
+  </dialog>
+
+  <!-- Settings -->
+  <dialog id="dlg-settings" class="dlg">
+    <h2>Settings</h2>
+    <p class="label">Eras in the mix</p>
+    <div class="chips" id="era-chips"></div>
+    <p class="hint" id="era-count"></p>
+    <p class="label">Volume</p>
+    <input type="range" id="volume" min="0" max="1" step="0.05" value="0.8" aria-label="Volume">
+    <p class="label">Difficulty</p>
+    <div class="chips" id="diff-chips"></div>
+    <form method="dialog"><button class="btn primary wide">Done</button></form>
+  </dialog>
+
+  <!-- Stats -->
+  <dialog id="dlg-stats" class="dlg">
+    <h2>Stats</h2>
+    <div class="stat-grid">
+      <div><b id="st-played">0</b><span>Played</span></div>
+      <div><b id="st-win">0</b><span>Win %</span></div>
+      <div><b id="st-streak">0</b><span>Streak</span></div>
+      <div><b id="st-best">0</b><span>Best</span></div>
+    </div>
+    <p class="label">Guess distribution</p>
+    <div class="dist" id="st-dist"></div>
+    <div class="dlg-row">
+      <button class="btn ghost" id="btn-reset" type="button">Reset stats</button>
+      <form method="dialog"><button class="btn primary">Close</button></form>
+    </div>
+  </dialog>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+# era | artist | title
+70s | Led Zeppelin | Stairway to Heaven
+70s | Led Zeppelin | Whole Lotta Love
+70s | Led Zeppelin | Black Dog
+70s | Led Zeppelin | Immigrant Song
+70s | Led Zeppelin | Kashmir
+70s | The Rolling Stones | (I Can't Get No) Satisfaction
+70s | The Rolling Stones | Paint It Black
+70s | The Rolling Stones | Gimme Shelter
+70s | The Rolling Stones | Sympathy for the Devil
+70s | The Beatles | Come Together
+70s | The Beatles | Helter Skelter
+70s | The Beatles | Revolution
+70s | Queen | Bohemian Rhapsody
+70s | Queen | We Will Rock You
+70s | Queen | Don't Stop Me Now
+80s | Queen | Another One Bites the Dust
+80s | Queen | Under Pressure
+70s | The Who | Baba O'Riley
+70s | The Who | Won't Get Fooled Again
+70s | The Who | My Generation
+70s | The Jimi Hendrix Experience | Purple Haze
+70s | The Jimi Hendrix Experience | All Along the Watchtower
+70s | Deep Purple | Smoke on the Water
+70s | Deep Purple | Highway Star
+70s | Black Sabbath | Paranoid
+70s | Black Sabbath | Iron Man
+70s | Black Sabbath | War Pigs
+70s | Pink Floyd | Another Brick in the Wall, Pt. 2
+70s | Pink Floyd | Comfortably Numb
+70s | Pink Floyd | Money
+70s | Pink Floyd | Wish You Were Here
+70s | Lynyrd Skynyrd | Sweet Home Alabama
+70s | Lynyrd Skynyrd | Free Bird
+70s | Eagles | Hotel California
+70s | Fleetwood Mac | The Chain
+70s | Fleetwood Mac | Go Your Own Way
+70s | AC/DC | Highway to Hell
+70s | AC/DC | T.N.T.
+80s | AC/DC | Back in Black
+80s | AC/DC | You Shook Me All Night Long
+90s | AC/DC | Thunderstruck
+70s | Aerosmith | Dream On
+70s | Aerosmith | Walk This Way
+70s | Aerosmith | Sweet Emotion
+70s | KISS | Rock and Roll All Nite
+70s | KISS | Detroit Rock City
+70s | Boston | More Than a Feeling
+70s | Blue Öyster Cult | (Don't Fear) The Reaper
+70s | Steppenwolf | Born to Be Wild
+70s | Creedence Clearwater Revival | Fortunate Son
+70s | Creedence Clearwater Revival | Bad Moon Rising
+70s | Creedence Clearwater Revival | Have You Ever Seen the Rain
+70s | The Doors | Light My Fire
+70s | The Doors | Break On Through (To the Other Side)
+70s | The Doors | Riders on the Storm
+70s | Cream | Sunshine of Your Love
+70s | Thin Lizzy | The Boys Are Back in Town
+70s | Bruce Springsteen | Born to Run
+70s | Van Halen | Runnin' with the Devil
+80s | Van Halen | Jump
+80s | Van Halen | Panama
+70s | Kansas | Carry On Wayward Son
+70s | Foreigner | Cold as Ice
+80s | Foreigner | Juke Box Hero
+70s | The Clash | London Calling
+80s | The Clash | Should I Stay or Should I Go
+70s | Ramones | Blitzkrieg Bop
+70s | The Kinks | You Really Got Me
+70s | Free | All Right Now
+70s | Steve Miller Band | The Joker
+70s | Golden Earring | Radar Love
+70s | ZZ Top | La Grange
+80s | ZZ Top | Sharp Dressed Man
+70s | Heart | Barracuda
+80s | Rush | Tom Sawyer
+70s | The Cars | Just What I Needed
+70s | Toto | Hold the Line
+70s | Dire Straits | Sultans of Swing
+70s | The Police | Roxanne
+70s | The Police | Message in a Bottle
+70s | Talking Heads | Psycho Killer
+70s | Tom Petty and the Heartbreakers | American Girl
+80s | Guns N' Roses | Sweet Child O' Mine
+80s | Guns N' Roses | Welcome to the Jungle
+80s | Guns N' Roses | Paradise City
+90s | Guns N' Roses | November Rain
+80s | Bon Jovi | Livin' on a Prayer
+80s | Bon Jovi | You Give Love a Bad Name
+80s | Bon Jovi | Wanted Dead or Alive
+80s | Def Leppard | Pour Some Sugar on Me
+80s | Journey | Don't Stop Believin'
+80s | Journey | Separate Ways (Worlds Apart)
+80s | Survivor | Eye of the Tiger
+80s | Joan Jett & The Blackhearts | I Love Rock 'N Roll
+80s | Pat Benatar | Hit Me with Your Best Shot
+80s | Twisted Sister | We're Not Gonna Take It
+80s | Europe | The Final Countdown
+80s | Scorpions | Rock You Like a Hurricane
+80s | Mötley Crüe | Kickstart My Heart
+80s | Mötley Crüe | Dr. Feelgood
+80s | Metallica | Master of Puppets
+80s | Metallica | One
+90s | Metallica | Enter Sandman
+90s | Metallica | Nothing Else Matters
+80s | Iron Maiden | The Trooper
+80s | Iron Maiden | Run to the Hills
+80s | Ozzy Osbourne | Crazy Train
+80s | Billy Idol | Rebel Yell
+80s | Billy Idol | White Wedding
+80s | Dire Straits | Money for Nothing
+80s | U2 | With or Without You
+80s | U2 | Where the Streets Have No Name
+80s | U2 | Sunday Bloody Sunday
+80s | The Police | Every Breath You Take
+80s | R.E.M. | The One I Love
+90s | R.E.M. | Losing My Religion
+80s | Bruce Springsteen | Born in the U.S.A.
+80s | Bruce Springsteen | Dancing in the Dark
+80s | Tom Petty | Free Fallin'
+80s | Tom Petty | I Won't Back Down
+80s | Whitesnake | Here I Go Again
+80s | Poison | Every Rose Has Its Thorn
+80s | Journey | Any Way You Want It
+80s | Pat Benatar | Heartbreaker
+80s | The Cult | She Sells Sanctuary
+80s | Def Leppard | Photograph
+80s | Quiet Riot | Cum On Feel the Noize
+80s | Billy Squier | The Stroke
+90s | Nirvana | Smells Like Teen Spirit
+90s | Nirvana | Come as You Are
+90s | Nirvana | Lithium
+90s | Nirvana | In Bloom
+90s | Nirvana | Heart-Shaped Box
+90s | Pearl Jam | Alive
+90s | Pearl Jam | Even Flow
+90s | Pearl Jam | Jeremy
+90s | Pearl Jam | Black
+90s | Soundgarden | Black Hole Sun
+90s | Soundgarden | Spoonman
+90s | Alice In Chains | Man in the Box
+90s | Alice In Chains | Rooster
+90s | Alice In Chains | Would?
+90s | Stone Temple Pilots | Plush
+90s | Stone Temple Pilots | Interstate Love Song
+90s | Red Hot Chili Peppers | Under the Bridge
+90s | Red Hot Chili Peppers | Give It Away
+90s | Red Hot Chili Peppers | Scar Tissue
+90s | Red Hot Chili Peppers | Californication
+90s | Red Hot Chili Peppers | Otherside
+90s | Foo Fighters | Everlong
+90s | Foo Fighters | My Hero
+90s | Foo Fighters | Learn to Fly
+90s | Foo Fighters | Monkey Wrench
+90s | Green Day | Basket Case
+90s | Green Day | When I Come Around
+90s | Green Day | Good Riddance (Time of Your Life)
+90s | The Offspring | Self Esteem
+90s | The Offspring | Come Out and Play
+90s | The Offspring | Pretty Fly (For a White Guy)
+90s | Rage Against the Machine | Killing in the Name
+90s | Rage Against the Machine | Bulls on Parade
+90s | Radiohead | Creep
+90s | Radiohead | Karma Police
+90s | Oasis | Wonderwall
+90s | Oasis | Don't Look Back in Anger
+90s | Oasis | Champagne Supernova
+90s | The Smashing Pumpkins | 1979
+90s | The Smashing Pumpkins | Bullet with Butterfly Wings
+90s | The Smashing Pumpkins | Today
+90s | Weezer | Buddy Holly
+90s | Weezer | Say It Ain't So
+90s | blink-182 | All the Small Things
+90s | blink-182 | What's My Age Again?
+90s | Bush | Glycerine
+90s | Bush | Comedown
+90s | Live | Lightning Crashes
+90s | Third Eye Blind | Semi-Charmed Life
+90s | Everclear | Santa Monica
+90s | Collective Soul | Shine
+90s | Goo Goo Dolls | Iris
+90s | Soul Asylum | Runaway Train
+90s | The Cranberries | Zombie
+90s | Semisonic | Closing Time
+90s | Lit | My Own Worst Enemy
+90s | Sublime | Santeria
+90s | Creed | Higher
+90s | Korn | Freak on a Leash
+90s | Tool | Sober
+90s | Toadies | Possum Kingdom
+90s | Fuel | Shimmer
+90s | Incubus | Drive
+90s | Pearl Jam | Better Man
+90s | Deftones | Change (In the House of Flies)
+00s | Linkin Park | In the End
+00s | Linkin Park | Numb
+00s | Linkin Park | Crawling
+00s | Linkin Park | What I've Done
+00s | System of a Down | Chop Suey!
+00s | System of a Down | Toxicity
+00s | System of a Down | B.Y.O.B.
+00s | The White Stripes | Seven Nation Army
+00s | The White Stripes | Fell in Love with a Girl
+00s | The Strokes | Last Nite
+00s | The Strokes | Reptilia
+00s | The Killers | Mr. Brightside
+00s | The Killers | Somebody Told Me
+00s | The Killers | When You Were Young
+00s | Arctic Monkeys | Do I Wanna Know?
+00s | Arctic Monkeys | I Bet You Look Good on the Dancefloor
+00s | Arctic Monkeys | R U Mine?
+00s | Arctic Monkeys | 505
+00s | Muse | Uprising
+00s | Muse | Knights of Cydonia
+00s | Muse | Hysteria
+00s | Muse | Supermassive Black Hole
+00s | Green Day | American Idiot
+00s | Green Day | Boulevard of Broken Dreams
+00s | Green Day | Holiday
+00s | Green Day | Wake Me Up When September Ends
+00s | Foo Fighters | The Pretender
+00s | Foo Fighters | Best of You
+00s | Foo Fighters | Times Like These
+00s | Foo Fighters | All My Life
+00s | Queens of the Stone Age | No One Knows
+00s | Queens of the Stone Age | Go with the Flow
+00s | Audioslave | Like a Stone
+00s | Audioslave | Cochise
+00s | Red Hot Chili Peppers | Can't Stop
+00s | Red Hot Chili Peppers | Dani California
+00s | Red Hot Chili Peppers | Snow (Hey Oh)
+00s | Kings of Leon | Sex on Fire
+00s | Kings of Leon | Use Somebody
+00s | Franz Ferdinand | Take Me Out
+00s | The Black Keys | Lonely Boy
+00s | The Black Keys | Gold on the Ceiling
+00s | The Black Keys | Tighten Up
+00s | Jet | Are You Gonna Be My Girl
+00s | Wolfmother | Woman
+00s | My Chemical Romance | Welcome to the Black Parade
+00s | My Chemical Romance | Helena
+00s | My Chemical Romance | I'm Not Okay (I Promise)
+00s | Fall Out Boy | Sugar, We're Goin Down
+00s | Paramore | Misery Business
+00s | blink-182 | I Miss You
+00s | Yeah Yeah Yeahs | Maps
+00s | 3 Doors Down | Kryptonite
+00s | Nickelback | How You Remind Me
+00s | Evanescence | Bring Me to Life
+00s | Breaking Benjamin | The Diary of Jane
+00s | Three Days Grace | I Hate Everything About You
+00s | Three Days Grace | Animal I Have Become
+00s | Disturbed | Down with the Sickness
+00s | Papa Roach | Last Resort
+00s | Jimmy Eat World | The Middle
+00s | The Hives | Hate to Say I Told You So
+00s | Royal Blood | Figure It Out
+00s | Greta Van Fleet | Highway Tune
+00s | Rise Against | Savior
+00s | Avenged Sevenfold | Bat Country
+00s | Avenged Sevenfold | Hail to the King
+00s | Cage the Elephant | Ain't No Rest for the Wicked
+00s | The Raconteurs | Steady, As She Goes
+00s | Weezer | Beverly Hills
+00s | Ghost | Square Hammer
+00s | Foo Fighters | Walk
+00s | The Killers | Human
+00s | Muse | Starlight
+00s | Arctic Monkeys | Fluorescent Adolescent
+00s | Linkin Park | Faint
+00s | Incubus | Wish You Were Here
+00s | The Strokes | Someday
+00s | Kaiser Chiefs | I Predict a Riot
+00s | Franz Ferdinand | Do You Want To
+00s | Velvet Revolver | Slither
+00s | Chevelle | The Red
+00s | Shinedown | Second Chance
+00s | Seether | Fake It
